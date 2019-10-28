@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a3e8da5-49c2-47a5-8995-7f8a11b331a8" name="Default Changelist" comment="" />
+    <list default="true" id="2a3e8da5-49c2-47a5-8995-7f8a11b331a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blog-post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +49,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpServers">
     <servers>
       <server host="http://localhost" id="85b94b2a-fdc8-4b87-9fcc-66893d286fa5" name="localhost" />
@@ -22,7 +61,12 @@
   <component name="PhpWebServerValidation" path_to_validation_script="C:\wamp64\www\" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1SgfvJbO6lLJ7XIEQxCKDV9Y8sZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/apache/apache2.4.39/bin/php.ini" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
@@ -72,12 +116,29 @@
       <workItem from="1571998205193" duration="1578000" />
       <workItem from="1572003495528" duration="4718000" />
       <workItem from="1572008618316" duration="3851000" />
-      <workItem from="1572249964096" duration="2343000" />
+      <workItem from="1572249964096" duration="20415000" />
+      <workItem from="1572271941980" duration="3039000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

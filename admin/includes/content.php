@@ -20,17 +20,17 @@
 //           $user->last_name = $result['lasr_name'];
 //
     echo $result->username;
-
+//
 //    $user = new User();
-//    $user->username = "Bill";
+//    $user->username = "delta";
 //    $user->password = "123";
-//    $user->first_name = "Bill";
-//    $user->last_name = "Clinton";
+//    $user->first_name = "Delta";
+//    $user->last_name = "Mars";
 //    $user->save();
 
-           $user = User::find_user_id(5);
-           $user->last_name = "Williams";
-           $user->update();
+//           $user = User::find_user_id(6);
+//           $user->last_name = "Goodman";
+//           $user->save();
 
 //           $user = User::find_user_by_id(4);
 //
@@ -39,6 +39,27 @@
 //           $user = new User();
 //           $user->username = "BILL";
 //           $user->save();
+//$users = User::find_all();
+//
+//foreach ($users as $user) {
+//    echo $user->username;
+//
+//}
+//
+//           $photos = Photo::find_all();
+//           foreach ($photos as $photo) {
+//               echo $photo->title;
+//           }
+//
+//           $photo = new Photo();
+//           $photo->title = "Bill";
+//           $photo->description = "Lorem";
+//           $photo->filename = "bill.jpg";
+//           $photo->type = "jpg";
+//           $photo->size = 20;
+//
+//           $photo->create();
+
 
            ?>
 

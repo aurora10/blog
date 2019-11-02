@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1e07f7-2950-4ea5-8a0b-838e2787a73d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/Db_object.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/Photo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/upload_photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/add_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/delete_photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/delete_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/edit_photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/edit_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Db_object.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Db_object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Photo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/photos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/upload_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/upload_photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +33,7 @@
   <component name="ProjectId" id="1SmiFxbfaCBV0ybajq3i5T6YmEp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -68,7 +73,8 @@
       <workItem from="1572186907085" duration="1720000" />
       <workItem from="1572199648460" duration="1150000" />
       <workItem from="1572458122182" duration="2224000" />
-      <workItem from="1572538968190" duration="33533000" />
+      <workItem from="1572538968190" duration="33723000" />
+      <workItem from="1572687090099" duration="15159000" />
     </task>
     <servers />
   </component>
@@ -80,7 +86,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -19,7 +19,7 @@ class Db_object
         return static::find_this_query ("SELECT * FROM " . static::$db_table);
     }
 
-    public static function find_user_id($id) {
+    public static function find_by_id($id) {
         $result = static::find_this_query("SELECT * FROM " . static::$db_table. " WHERE id=$id LIMIT 1");
         return !empty($result) ? array_shift($result) : false;
     }

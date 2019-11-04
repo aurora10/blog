@@ -65,7 +65,8 @@ class User extends Db_object
             $this->update();
             unset($this->tmp_path);
             return true;
-        }else{
+        }else
+            {
             if(!empty($this->errors)){
                 return false;
             }
@@ -90,11 +91,6 @@ class User extends Db_object
             }
         }
     }
-
-
-
-
-
 
 
 

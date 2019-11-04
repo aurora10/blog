@@ -2,7 +2,26 @@
 
 
 class Db_object
+
+
 {
+
+
+    public $errors = array();
+    public $upload_errors_array = array(
+        UPLOAD_ERR_OK => "There is no error",
+        UPLOAD_ERR_INI_SIZE => "The uploaded file exceeds the upload max_filesize from php.ini",
+        UPLOAD_ERR_FORM_SIZE => "The upload file exceeds MAX_FILE_SIZE in php.ini voor html form",
+        UPLOAD_ERR_NO_FILE => "No file uploaded",
+        UPLOAD_ERR_PARTIAL => "The file was partially uploaded",
+        UPLOAD_ERR_NO_TMP_DIR => "Missing a temporary folder",
+        UPLOAD_ERR_CANT_WRITE => "Failed to write to disk",
+        UPLOAD_ERR_EXTENSION => "A php extension stopped your upload"
+    );
+
+
+
+
     public function instantie($result) {
     $calling_class = get_called_class();
     $the_object = new $calling_class;
@@ -20,17 +39,19 @@ class Db_object
     }
 
     public static function find_by_id($id) {
-        $result = static::find_this_query("SELECT * FROM " . static::$db_table. " WHERE id=$id LIMIT 1");
+        $result = static::find_this_query("SELECT * FROM " . static::$db_table. " WHERE id=$id  LIMIT 1");
         return !empty($result) ? array_shift($result) : false;
     }
 
     public static function find_this_query($sql) {
+
         global $database;
         $result = $database->query($sql);
         $the_object_array = array();
         while ($row = mysqli_fetch_array($result)) {
             $the_object_array[] = static::instantie($row);
         }
+
         return $the_object_array;
     }
 
@@ -67,9 +88,9 @@ class Db_object
         global $database;
         $properties = $this->clean_properties();
 
-        $sql = "INSERT INTO " .static::$db_table ." ( "  .  implode(",", array_keys($properties))  .    ")";
+        $sql = "INSERT INTO " .static::$db_table . " ( " .  implode(", ", array_keys($properties))  .    ")";
         $sql .= " VALUES ('"   . implode("','" , array_values($properties))  .    "')";
-
+        var_dump($sql);
 
         if ($database->query($sql)){
             $this->id = $database->the_insert_id();

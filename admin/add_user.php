@@ -10,9 +10,15 @@ if (isset( $_POST['submit'] )) {
         $user->first_name = $_POST['first_name'];
         $user->last_name = $_POST['last_name'];
         $user->password = $_POST['password'];
-        $user->set_file($_FILES['user_image']);
-        $user->save_user_and_image();
-        redirect ( 'users.php' );
+
+        if (empty($_FILES['user_image'])){
+            $user->save();
+            redirect ( 'users.php' );
+        }else {
+            $user->set_file($_FILES['user_image']);
+            $user->save_user_and_image();
+            redirect('users.php');
+        }
         /*$user->save ();*/
     }
 }

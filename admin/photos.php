@@ -22,8 +22,10 @@ include ("includes/content-top.php");?>
                         <th>Filename</th>
                         <th>Alternate Text</th>
                         <th>Size</th>
+                        <th>Comments</th>
                         <th>Delete</th>
                          <th>Update</th>
+                        <th>View</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,12 +39,24 @@ include ("includes/content-top.php");?>
                                 <td><?php echo $photo->filename; ?></td>
                                 <td><?php echo $photo->alternate_text; ?></td>
                                 <td><?php echo $photo->size; ?></td>
+                                <td><a href="comments_photo.php?id=<?php echo $photo->id;  ?>">
+
+                                        <?php
+                                            $comments = Comment::find_the_comments($photo->id);
+                                            echo count($comments);
+
+                                        ?>
+
+                                    </a></td>
+
                                 <td><a class="btn btn-danger rounded btn-lg" href="delete_photo.php?id=<?php echo $photo->id;?>"><i class="far fa-trash-alt"></i></a></td>
                                 <td><a class="btn btn-warning btn-lg" href="edit_photo.php?id=<?php echo $photo->id;?>"><i class="far fa-edit"></i></a></td>
+                                <td><a class="btn btn-warning btn-lg" href="../photo.php?id=<?php echo $photo->id;?>"><i class="far fa-eye"></i></a></td>
+
                             </tr>
                     <?php endforeach; ?>
                 </tbody>
 
             </table>
-        </div>
+        </d
     </div>

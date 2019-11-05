@@ -5,4 +5,15 @@
  */
 body {
   padding-top: 56px;
+  background-color: #1cc88a;
+}
+
+.frame {
+  width: 200px; !important; /* You can set the dimensions to whatever you want */
+  height: 200px; !important;
+  object-fit: cover; !important;
+}
+
+.h1 {
+  color: red; !important;
 }

@@ -90,7 +90,7 @@ class Db_object
 
         $sql = "INSERT INTO " .static::$db_table . " ( " .  implode(", ", array_keys($properties))  .    ")";
         $sql .= " VALUES ('"   . implode("','" , array_values($properties))  .    "')";
-        var_dump($sql);
+        //var_dump($sql);
 
         if ($database->query($sql)){
             $this->id = $database->the_insert_id();
@@ -139,6 +139,14 @@ class Db_object
             $clean_properties[$key] = $database->escape_string($value);
         }
         return $clean_properties;
+    }
+
+    public static function count_all () {
+        global $database;
+        $sql = "SELECT COUNT(*) FROM " . static::$db_table;
+        $result_set = $database->query($sql);
+        $row = mysqli_fetch_array($result_set);
+        return array_shift($row);
     }
 
 

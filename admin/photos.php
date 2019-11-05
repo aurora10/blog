@@ -32,7 +32,7 @@ include ("includes/content-top.php");?>
                     <?php
                         foreach ($photos as $photo): ?>
                             <tr>
-                                <td class="d-flex align-self-stretch col-xs-3 col-sm-1"><img src="<?php echo $photo->picture_path();  ?>" style="max-height: 66px; max-width: 66px;" alt=""></td>
+                                <td class="d-flex align-self-stretch col-xs-3 col-sm-1"><a href="../photo.php?id=<?php echo $photo->id; ?>"><img src="<?php echo $photo->picture_path();  ?> " style="max-height: 66px; max-width: 66px;" alt=""></a></td>
                                 <td><?php echo $photo->id; ?></td>
                                 <td><?php echo $photo->title; ?></td>
                                 <td><?php echo $photo->caption; ?></td>

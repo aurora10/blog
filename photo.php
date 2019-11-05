@@ -1,6 +1,7 @@
-<?php include ("./includes/header.php"); ?>
-<?php  require_once ("./admin/includes/init.php");
+<?php
 
+include ("includes/header.php");
+require_once ("admin/includes/init.php");
 
 
 

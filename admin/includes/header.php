@@ -20,6 +20,37 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", {packages:["corechart"]});
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Language', 'Speakers (in millions)'],
+                ['Views', <?php  echo $session->count; ?> ],
+                ['Comments', <?php  echo Comment::count_all(); ?>],
+                ['Users', <?php  echo User::count_all(); ?>],
+                ['Photos', <?php  echo Photo::count_all(); ?>],
+
+            ]);
+
+            var options = {
+                title: 'Site Usage',
+                legend: 'none',
+                pieSliceText: 'label',
+                 slices: {  4: {offset: 0.2},
+                    12: {offset: 0.3},
+                    14: {offset: 0.4},
+                    15: {offset: 0.5},
+                },
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+            chart.draw(data, options);
+        }
+    </script>
+
+
 </head>
 
 <body id="page-top">

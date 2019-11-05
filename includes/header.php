@@ -1,3 +1,20 @@
+<?php  include ("admin/includes/header.php");
+//$photos = Photo::find_all();
+
+$page = !empty($_GET['page']) ? (int)$_GET['page'] : 1;
+$items_per_page = 4;
+$items_total_count = Photo::count_all();
+
+$paginate = new Paginate($page, $items_per_page, $items_total_count);
+
+$sql = "SELECT * FROM photos ";
+$sql .= "LIMIT {$items_per_page} ";
+$sql .= "OFFSET {$paginate->offset()}";
+
+$photos = Photo::find_this_query($sql);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +31,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/blog-post.css" rel="stylesheet">
+    <link href="./css/blog-post.css" rel="stylesheet">
 
 </head>
 

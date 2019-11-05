@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1e07f7-2950-4ea5-8a0b-838e2787a73d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/comments_photo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/delete_comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/Paginate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/comments.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/Db_object.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Db_object.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/photos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blog-post.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog-post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/photo.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +82,8 @@
       <workItem from="1572719259688" duration="104000" />
       <workItem from="1572719401835" duration="636000" />
       <workItem from="1572858439889" duration="20351000" />
+      <workItem from="1572945264667" duration="29000" />
+      <workItem from="1572945329709" duration="17565000" />
     </task>
     <servers />
   </component>
